@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.0,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 52.3
+  },
+  "rows": [
+    {
+      "question": "LoRAとは何ですか？",
+      "raw": "{\"answer\": \"LoRAは低秩近似（Low-Rank Approximation）の手法で、大規模モデルを効率的に学習するための技術です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ハルシネーションとは何ですか？",
+      "raw": "{\"answer\": \"振動が周期的に増減し、振幅が最大値から最小値へ変化する現象\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPとは何ですか？",
+      "raw": "{\"answer\": \"MCPはMicrosoft AzureのAzure Machine Learningプラットフォームの「Mental Model Platform」の略で、AIモデルのトレーニング、デプロイ、および管理を簡易的に可能にするためのプラットフォームです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コンテキストウィンドウとは何ですか？",
+      "raw": "{\"answer\": \"コンテキストウィンドウとは、ユーザーがテキスト入力した際に、その入力内容に関連する文脈や情報を含むウィンドウを表示する機能です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "量子化とは何ですか？",
+      "raw": "{\"answer\": \"量子化とは、物理現象や現象の単位を量子力学の枠組みで定義した概念です。例えば、電荷は整数倍の単位で増減される、またはエネルギーは量子化された値しか取得できないという考え方です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "過学習とは何ですか？",
+      "raw": "{\"answer\": \"過学習とは、学習アルゴリズムが過学習を避けるために、学習データに埋め込まれた過学習の警告メッセージを表示する機能です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "エポックとは何ですか？",
+      "raw": "{\"answer\": \"エポックとは、ソフトウェア開発における「バージョン」の概念です。バージョンが更新されるたびに、そのバージョンの特性や機能が変わるため、そのバージョンをエポックと呼びます。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "元の重みを固定し、更新分を小さな低ランク行列の積で表して追加学習する手法は何ですか？",
+      "raw": "{\"answer\": \"低ランク行列の積（低ランク積）\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMが事実と異なる内容をもっともらしく生成する現象を何と呼びますか？",
+      "raw": "{\"answer\": \"誤魔化しなさい\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIアプリと外部ツールやデータソースを共通の方法でつなぐ標準プロトコルは何ですか？",
+      "raw": "{\"answer\": \"HTTP/HTTPS\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMが1回に扱える入力と出力の合計トークン数の上限を何と呼びますか？",
+      "raw": "{\"answer\": \"100\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "モデルの重みを少ないビット数で表してメモリ使用量を減らす技術は何ですか？",
+      "raw": "{\"answer\": \"メモリ効率化技術\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "学習データに適合しすぎて未知の入力への性能が落ちる状態を何と呼びますか？",
+      "raw": "{\"answer\": \"過学習\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "学習データ全体を一通り学習する回数を数える単位は何ですか？",
+      "raw": "{\"answer\": \"学習回数\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "DPOとは何ですか？",
+      "raw": "{\"answer\": \"DPOとはDeep Preference Optimizationの略で、Deep Reinforcement Learningにおける「報酬の優先順位付け」の手法です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "知識蒸留とは何ですか？",
+      "raw": "{\"answer\": \"知識蒸留とは、知識を蒸発させることで知識の濃度を高める技術です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "投機的デコーディングとは何ですか？",
+      "raw": "{\"answer\": \"投機的デコーディングとは、データを送信する際に、送信者側が事前に計算した値をそのまま送信する手法です。送信者側が計算した値をそのまま送信することで、受信側が誤解されずにデータを受け取ることを目的としています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Mixture of Expertsとは何ですか？",
+      "raw": "{\"answer\": \"Mixture of Experts（MOE）は、複数の専門家の知識を組み合わせることで、より高い精度を達成する学習アプローチです。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "RLHFとは何ですか？",
+      "raw": "{\"answer\": \"RLHFとは、Reinforcement Learning from Human Feedback（人間からの報酬学習）を指す用語で、人間の意見や指示に基づいて大規模言語モデルや他のAIモデルの出力を最適化する手法です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "BM25とは何ですか？",
+      "raw": "{\"answer\": \"BM25はBM25-25の略で、BM25-25の簡略化版で、BM25-25の簡略化版で、BM25-25の簡略化版で、BM25-25の簡略化版で、BM25-25の簡略化版で、BM25-25の簡略化版で、",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "RAGとは何ですか？",
+      "raw": "{\"answer\": \"RAG（Retrieval-Augmented Generation）は、大規模言語モデル（LLM）の出力を、検索エンジンで取得した知識や文脈から補完・拡張する技術です。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    }
+  ]
+}
