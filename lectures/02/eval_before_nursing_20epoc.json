@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.09523809523809523,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 40.1
+  },
+  "rows": [
+    {
+      "question": "開始時間は何時ですか",
+      "raw": "{\"answer\": \"9時\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "フィジカルアセスメント演習が始まるのは何時ですか",
+      "raw": "{\"answer\": \"9 時\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "演習開始の時刻を知りたいです",
+      "raw": "{\"answer\": \"9 時\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "事前学習の対象は何ですか",
+      "raw": "{\"answer\": \"血圧測定の手順書\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "演習前に確認すべき手順書は何ですか",
+      "raw": "{\"answer\": \"事前学習では血圧測定の手順書を確認します\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "事前学習で扱う内容を教えてください",
+      "raw": "{\"answer\": \"血圧測定の手順書\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "演習の持参物は何ですか",
+      "raw": "{\"answer\": \"聴診器と筆記用具\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "演習当日の持ち物を教えてください",
+      "raw": "{\"answer\": \"聴診器と筆記用具\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "必要な道具は何ですか",
+      "raw": "{\"answer\": \"聴診器と筆記用具\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "事後課題の提出方法を教えてください",
+      "raw": "{\"answer\": \"事後課題は演習後3日以内に学習ポータルへ提出します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "事後課題は何日以内にどこへ提出しますか",
+      "raw": "{\"answer\": \"3 日以内\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "演習が終わった後の課題提出について教えてください",
+      "raw": "{\"answer\": \"事後課題は演習後3日以内に学習ポータルへ提出します。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "フィードバックの方法を教えてください",
+      "raw": "{\"answer\": \"教員が口頭で行います\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "演習終了後は誰からどんな形で講評がありますか",
+      "raw": "{\"answer\": \"教員\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "教員からのフィードバック方法は何ですか",
+      "raw": "{\"answer\": \"教員が口頭で行います\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "グループ分けはいつ発表されますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "演習中にスマートフォンを使えますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "9時に遅れた場合の具体的な扱いは何ですか",
+      "raw": "{\"answer\": \"9 時に遅れた場合、フィジカルアセスメント演習は 9 時より遅く開始されます。ただし、事前学習では血圧測定の手順書を確認する義務は依然として保持され、演習の持参物は聴診器と筆記用具となります。事後課題は演習後 3 日以内に学習ポータルへ提出します。演習後のフィードバックは教員が口頭で行います",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "筆記用具を忘れた場合は借りられますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "事後課題の再提出はできますか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "教員の口頭フィードバックは何分間ですか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}
