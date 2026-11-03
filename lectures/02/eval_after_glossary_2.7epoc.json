@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.09523809523809523,
+    "both_rate": 0.09523809523809523,
+    "seconds": 41.9
+  },
+  "rows": [
+    {
+      "question": "LoRAとは何ですか？",
+      "raw": "{\"answer\": \"低秩非線形変換の一種。学習データに固定化した低秩変換層を学習する手法。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ハルシネーションとは何ですか？",
+      "raw": "{\"answer\": \"AIが学習データに真偽値を混ぜて学習し、結果として真偽値に依存せず、必ず真偽値を返す現象。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "MCPとは何ですか？",
+      "raw": "{\"answer\": \"AIと外部ツールを共通言語で通信するためのAPIインターフェースの総称。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "コンテキストウィンドウとは何ですか？",
+      "raw": "{\"answer\": \"LLMが1回に処理できる入力と出力の合計トークン数の上限。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "量子化とは何ですか？",
+      "raw": "{\"answer\": \"AIモデルの参数を大幅に減らす方法。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "過学習とは何ですか？",
+      "raw": "{\"answer\": \"学習データに適合しすぎて未知の入力に不安定になる状態。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "エポックとは何ですか？",
+      "raw": "{\"answer\": \"学習データ全体を1回に学習する回数。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "元の重みを固定し、更新分を小さな低ランク行列の積で表して追加学習する手法は何ですか？",
+      "raw": "{\"answer\": \"低ランク行列の積\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMが事実と異なる内容をもっともらしく生成する現象を何と呼びますか？",
+      "raw": "{\"answer\": \"ダミー用語_22\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "AIアプリと外部ツールやデータソースを共通の方法でつなぐ標準プロトコルは何ですか？",
+      "raw": "{\"answer\": \"API 1\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "LLMが1回に扱える入力と出力の合計トークン数の上限を何と呼びますか？",
+      "raw": "{\"answer\": \"総トークン数\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "モデルの重みを少ないビット数で表してメモリ使用量を減らす技術は何ですか？",
+      "raw": "{\"answer\": \"量化\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "学習データに適合しすぎて未知の入力への性能が落ちる状態を何と呼びますか？",
+      "raw": "{\"answer\": \"過学習\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "学習データ全体を一通り学習する回数を数える単位は何ですか？",
+      "raw": "{\"answer\": \"学習回数\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "DPOとは何ですか？",
+      "raw": "{\"answer\": \"教師データと目標関数の差を最小化して学習する方法。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "知識蒸留とは何ですか？",
+      "raw": "{\"answer\": \"AI用語の学習データに追加学習を適用し、より高い精度を達成する手法。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "投機的デコーディングとは何ですか？",
+      "raw": "{\"answer\": \"学習データに直接学習せず、外部の知識やルールを学習して推測する手法。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Mixture of Expertsとは何ですか？",
+      "raw": "{\"answer\": \"複数の異なる学習モデルを1つに混ぜて学習する手法。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "RLHFとは何ですか？",
+      "raw": "{\"answer\": \"学習したLLMの行動の目標を人間に与え、その行動の履歴を学習データに追加学習するプロセス。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "BM25とは何ですか？",
+      "raw": "{\"answer\": \"検索用語の回答係です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "RAGとは何ですか？",
+      "raw": "{\"answer\": \"AIモデルと外部知識ソースのデータを一度に保存し、回答時に最新データをリッチに抽出して回答する技術。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    }
+  ]
+}
