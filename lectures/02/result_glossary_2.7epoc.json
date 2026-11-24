@@ -1,0 +1,251 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "max_steps": 40,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "method": "LoRA（量子化なし）",
+  "before": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.0,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 54.0
+  },
+  "after": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.09523809523809523,
+    "both_rate": 0.09523809523809523,
+    "seconds": 41.9
+  },
+  "search": {
+    "label": "search",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.3333333333333333,
+    "both_rate": 0.3333333333333333,
+    "seconds": 0.0
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "質問": "この講座の最終課題の締切はいつですか",
+      "用語集にある": false,
+      "確認の観点": "この実験の入力には締切の情報がないため、推測せず確認を求める。",
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"確認が必要\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"最終課題の締切日です。\", \"needs_review\": false}",
+      "検索の分類": "needs_review",
+      "検索の出力": "{\"answer\": \"該当する説明が見つかりません。確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "担当教員の名前は何ですか",
+      "用語集にある": false,
+      "確認の観点": "この実験の入力には担当教員の情報がないため、推測せず確認を求める。",
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"担当教員の名前は確認が必要\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"担当教員の名前です。\", \"needs_review\": false}",
+      "検索の分類": "needs_review",
+      "検索の出力": "{\"answer\": \"該当する説明が見つかりません。確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "次回の講義のテーマは何ですか",
+      "用語集にある": false,
+      "確認の観点": "この実験の入力だけでは次回が特定できないため、確認を求める。",
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"次回の講義のテーマは「AIと社会の融合」です\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"AI用語の学習内容と形式についてです。\", \"needs_review\": false}",
+      "検索の分類": "needs_review",
+      "検索の出力": "{\"answer\": \"該当する説明が見つかりません。確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "LoRAとは何ですか？",
+      "用語集にある": true,
+      "確認の観点": "元の重みを固定し、更新分を小さな低ランク行列の積で表して追加学習する手法。",
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"LoRAは低秩近似（Low-Rank Approximation）の手法で、大規模モデルを効率的に学習するための技術です。\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"低秩非線形変換の一種。学習データに固定化した低秩変換層を学習する手法。\", \"needs_review\": false}",
+      "検索の分類": "asserted",
+      "検索の出力": "{\"answer\": \"LoRA：元の重みを固定し、更新分を小さな低ランク行列の積で表して追加学習する手法。\", \"needs_review\": false}"
+    }
+  ],
+  "executed_training_myself": true,
+  "source_sha256": "409b346480c88fa835150be88fe46682e866551d2d03c5e3c072d5869dd55160",
+  "system_prompt": "あなたはAI用語の回答係です。日本語で簡潔に、必ずJSON 1行で答えてください。形式: {\"answer\": 文字列, \"needs_review\": 真偽値}。分からない場合は推測せず、answerに「確認が必要」と書き、needs_reviewをtrueにしてください。",
+  "train_count": 116,
+  "validation_count": 0,
+  "test_count": 21,
+  "training_steps": 40,
+  "training_epochs": 2.689655172413793,
+  "training_seconds": 116.8,
+  "training_log": [
+    {
+      "loss": 1.5704469680786133,
+      "grad_norm": 2.5690717697143555,
+      "learning_rate": 0.00019618256431728194,
+      "entropy": 1.7079125925898553,
+      "num_tokens": 9201.0,
+      "mean_token_accuracy": 0.7066116988658905,
+      "epoch": 0.6896551724137931,
+      "step": 10
+    },
+    {
+      "loss": 0.13134161233901978,
+      "grad_norm": 0.9694343209266663,
+      "learning_rate": 0.00013612416661871533,
+      "entropy": 0.15911891566295372,
+      "num_tokens": 17973.0,
+      "mean_token_accuracy": 0.9683679059932107,
+      "epoch": 1.3448275862068966,
+      "step": 20
+    },
+    {
+      "loss": 0.08655258417129516,
+      "grad_norm": 0.8248475790023804,
+      "learning_rate": 4.735678371226441e-05,
+      "entropy": 0.1079739692964052,
+      "num_tokens": 26736.0,
+      "mean_token_accuracy": 0.9762476965000755,
+      "epoch": 2.0,
+      "step": 30
+    },
+    {
+      "loss": 0.06669427156448364,
+      "grad_norm": 0.43186086416244507,
+      "learning_rate": 4.2658237049655323e-07,
+      "entropy": 0.09303528014570475,
+      "num_tokens": 35952.0,
+      "mean_token_accuracy": 0.9783562391996383,
+      "epoch": 2.689655172413793,
+      "step": 40
+    },
+    {
+      "train_runtime": 116.37,
+      "train_samples_per_second": 2.75,
+      "train_steps_per_second": 0.344,
+      "total_flos": 110788881638400.0,
+      "train_loss": 0.46375885903835296,
+      "epoch": 2.689655172413793,
+      "step": 40
+    }
+  ],
+  "category_scores": [
+    {
+      "label": "before",
+      "分類": "用語を直接聞く",
+      "n": 7,
+      "format_rate": 0.0,
+      "content_rate": 0.0,
+      "both_rate": 0.0,
+      "回答保留数": 0,
+      "形式エラー数": 7
+    },
+    {
+      "label": "before",
+      "分類": "言い換え",
+      "n": 7,
+      "format_rate": 0.0,
+      "content_rate": 0.0,
+      "both_rate": 0.0,
+      "回答保留数": 0,
+      "形式エラー数": 7
+    },
+    {
+      "label": "before",
+      "分類": "用語集に独立項目がない語",
+      "n": 7,
+      "format_rate": 0.0,
+      "content_rate": 0.0,
+      "both_rate": 0.0,
+      "回答保留数": 0,
+      "形式エラー数": 7
+    },
+    {
+      "label": "after",
+      "分類": "用語を直接聞く",
+      "n": 7,
+      "format_rate": 1.0,
+      "content_rate": 0.14285714285714285,
+      "both_rate": 0.14285714285714285,
+      "回答保留数": 0,
+      "形式エラー数": 0
+    },
+    {
+      "label": "after",
+      "分類": "言い換え",
+      "n": 7,
+      "format_rate": 1.0,
+      "content_rate": 0.14285714285714285,
+      "both_rate": 0.14285714285714285,
+      "回答保留数": 0,
+      "形式エラー数": 0
+    },
+    {
+      "label": "after",
+      "分類": "用語集に独立項目がない語",
+      "n": 7,
+      "format_rate": 1.0,
+      "content_rate": 0.0,
+      "both_rate": 0.0,
+      "回答保留数": 0,
+      "形式エラー数": 0
+    },
+    {
+      "label": "search",
+      "分類": "用語を直接聞く",
+      "n": 7,
+      "format_rate": 1.0,
+      "content_rate": 1.0,
+      "both_rate": 1.0,
+      "回答保留数": 0,
+      "形式エラー数": 0
+    },
+    {
+      "label": "search",
+      "分類": "言い換え",
+      "n": 7,
+      "format_rate": 1.0,
+      "content_rate": 0.0,
+      "both_rate": 0.0,
+      "回答保留数": 7,
+      "形式エラー数": 0
+    },
+    {
+      "label": "search",
+      "分類": "用語集に独立項目がない語",
+      "n": 7,
+      "format_rate": 1.0,
+      "content_rate": 0.0,
+      "both_rate": 0.0,
+      "回答保留数": 7,
+      "形式エラー数": 0
+    }
+  ],
+  "scoring": "講義と同じneeds_review一致＋必須語句一致。意味の正誤は原文と模範解答で確認する。",
+  "outside_policy": "独立項目がない実在語7問は定義で採点。回答保留は正解にも幻覚にも自動分類しない。",
+  "search_method": "質問から定型句除去→用語名の一致→用語名・定義の部分一致。正解表は参照しない。",
+  "comparison_scope": "この固定21問の学習前後・検索。FAQ実験とは問題の内容も難易度も異なる。"
+}
